@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Noto Sans Mono', monospace;
+
+}
+.password-container{
+    /* background-color: bisque; */
+    background-color: #ebdccb;
+    width: 600px;
+    padding: 30px;
+    /* height: 115px; */
+    /* display: flex;
+    justify-content: center;
+    /* height: 100%; */
+    /* align-items: center;  */
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin: 10px;
+
+
+}
+
+.input-container{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input{
+    background-color: transparent;
+    border: none;
+    /* border-radius: 5px; */
+    outline: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.input::placeholder{
+    letter-spacing: 0px;
+
+}
+.fa-regular{
+    cursor:pointer;
+    opacity: 0.4;
+}
+.fa-regular:hover{
+    opacity: 0.7;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    margin: 20px 0px -10px 0px ;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(113, 227, 252); 
+    color: black;
+}
+.btn:active{
+    /* opacity: 0.7; */
+    transform: scale(.95);
+    transition: transform 0.1s;
+}
+.alert-container{
+    position: fixed;
+    background-color: #747572;
+    right: -55%;
+    bottom: 20px;
+    padding: 10px 10px;
+    border-radius:10px ;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+    color: white;
+    font-size: 19px;
+    transition: 0.2s;
+    transition: translateX(100%);
+}
+.active{
+    right: 10px;
+}
